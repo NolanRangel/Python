@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkerboard</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}">
+</head>
+<body>
+
+    <h1 class="header">*** Checkerboard ***</h1>
+    {%for i in range(0,numy): %}
+        {% if i % 2 == 0 %}
+    <div class="container">
+        {% for i in range(0,numx): %}
+            {% if i >= (numx / 2): %}
+                {{ break }}
+        <div class="box" style="background-color: {{colorx}};"></div>
+        <div class="box" style="background-color: {{colory}};">pytho</div>
+            {% endif %}
+        {% endfor%}
+    </div>
+        {% else %}
+        <div class="container">
+            {% for i in range(0,numx): %}
+                {% if i >= (numx / 2): %}
+                    {{ break }}
+            <div class="box" style="background-color: {{colory}};"></div>
+            <div class="box" style="background-color: {{colorx}};"></div>
+                {% endif %}
+            {% endfor%}
+        </div>
+        {% endif %}
+    {% endfor %}
+    
+    
+
+    <script src="{{url_for('static', filename='js/script.js')}}"></script>
+</body>
+</html>

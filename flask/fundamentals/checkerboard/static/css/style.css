@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin-bottom: 100px;
+}
+.header{
+    text-align: center;
+    margin: 100px 0;
+    font-size: 3em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    margin: 0 auto;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+}
+.box{
+    width: 50px;
+    height: 50px;
+    /* border: 1px solid black; */
+
+}
+.color{
+    background-color: red;
+}
+.color2{
+    background-color: black;
+}

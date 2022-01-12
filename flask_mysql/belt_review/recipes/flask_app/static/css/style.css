@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    background-color: rgba(238, 235, 235, 0.671);
+    /* width: 70%; */
+    height: 100vh;
+    margin: 0 auto;
+
+}
+.container{
+    border-radius: 5px;
+}
+nav{
+    height: 100px;
+}
+.text-box{
+    height: 200px;
+    text-align: start;
+}
+.ri{
+width: 300px;
+}
+.container border{
+    border-left: 1px solid black;
+}
+
+
