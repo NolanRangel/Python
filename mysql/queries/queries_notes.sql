@@ -3,6 +3,7 @@
 
 -- IMPORT -- either copy and paste from sql file OR create ERD table and then, Database(TAB), Forward engineer, run through commands and double check port, 
 -- IMPORT Cont. -- go to connections page (dolphin) and refresh SCHEMAS
+-- USE *new_schema (to select new schema)
 
 -- SELECT
 -- SELECT all FROM table_name WHERE conditions();
